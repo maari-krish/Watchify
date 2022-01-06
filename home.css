@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.bgimage {
+    position: relative;
+    width: 99.965%;
+    height: 120vh;
+    background-size: cover;
+    box-shadow: 103px -3px 144px #000 inset;
+
+
+}
+.img{
+    position: fixed;
+    top: 15px;
+    left: 26px;
+}
+
+.showtop-up img{
+    width: 17%;
+}
+
+.menu {
+    position: fixed;
+    left: 298px;
+    top: -10px;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px 10%;
+    font-family: sans-serif;
+}
+  
+.menu {
+    list-style: none;
+}
+  
+.menu{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.menu li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+}
+  
+.menu li a:hover{
+    color: #A6AE00;
+    border: 2px solid #A6AE00;
+    padding: 3px;
+    border-radius: 4px;
+    width: 80px;
+}
+  
+a.home{
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    left: 75px;
+    top: 25px;
+}
+  
+a.movies{
+    position:absolute;
+    left: 220px;
+    top: 25px;
+}
+  
+a.tvshows{
+    position: absolute;  
+    left: 335px;
+    top: 25px;
+}
+  
+a.webseries{
+    position: absolute;
+    left: 490px;
+    top: 25px;
+}
+
+p.title{
+    color: white;
+  
+}
+.content{
+    position: absolute;
+    top: 409px;
+    left: 87px;
+    font-size: 51px;
+}
+.title{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.title2{
+    margin-top: 4px;
+    margin-left: 298px;
+    font-size: 53px;
+    color: white;
+}
+
+.movielist{
+    color: #fff;
+    font-family: sans-serif;
+}
+.recent {
+    height: 40vh;
+}
+
+.moviesimg {
+    position: relative;
+    width: 32%;
+    height: 328px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 16px;
+    padding: 4px;
+
+}
+.details{
+    position: absolute;
+    font-size: x-large;
+    left: -1%;
+    top: 53%;
+    transform: translate(7%, 62%);
+}
+#details{
+    font-family: sans-serif;
+}
+.thumbnail{
+    margin-left: 25px;
+    color: white;
+}
+h3{
+font-family: sans-serif;
+}
+.sp{
+    font-family: sans-serif; 
+}
+
+.movielist{
+    color: #fff;
+    font-family: sans-serif;
+}
+.recent {
+    height: 80vh;
+}
+
+.movieimg{
+    position: relative;
+    width: 32%;
+    height: 417px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 16px 0px;
+    padding: 4px;
+}
+.details{
+    position: absolute;
+    font-size: x-large;
+    left: -1%;
+    top: 61%;
+    transform: translate(7%, 62%);
+}
+#details{
+    font-family: sans-serif;
+}
+.thumbnail{
+    margin-left: 25px;
+    color: white;
+}
+h3{
+font-family: sans-serif;
+}
+.sp{
+    font-family: sans-serif; 
+}
+.recent{
+    height: 110vh;
+}
+
+footer{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    background: #212020;
+    color: #fff;
+    height: 180px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.column1{
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  padding-bottom: 30px 10%;
+}
+
+.field{
+  padding: 15px;
+}
+
+.column-2{
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  padding-bottom: 30px 10%;
+}
+
+.column-3{
+  position: absolute;
+  top: 22px;
+  left: 800px;
+  padding-bottom: 30px 10%;
+}
+
+.field-1{
+  padding: 2px;
+}
+
+.rights{
+  position: absolute;
+  bottom: -7px;
+  left: 300px;
+}
+
+.logoutt{
+    position: absolute;
+    float: left;
+    top: 29px;
+    left: 1160px;
+    cursor: pointer;
+    color: white;
+    /* background-color: #a6ae00; */
+    border-radius: 6100px;
+}

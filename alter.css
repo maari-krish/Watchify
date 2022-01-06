@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(9, 9, 9);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1,
+h3,
+h4 {
+  color: white;
+}
+
+.Image {
+  width: 12.5%;
+  height: 412px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px -147px 206px #000 inset;
+}
+
+.showtop-up {
+  position: fixed;
+  top: 15px;
+  left: 26px;
+}
+
+.showtop-up img{
+  width: 40%;
+}
+
+.btn-sign {
+  position: fixed;
+  top: 8px;
+  right: -800px;
+  font-size: 13px;
+  text-decoration: none;
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 8px;
+  background: #a6ae00;
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 30px;
+  line-height: 10px;
+}
+
+.showtop-up, a{
+  text-decoration: none;
+  color:white;
+  font-size: 13px;
+}
+
+.menu {
+  position: fixed;
+  left: 298px;
+  top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: sans-serif;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu{
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.menu li a{
+  transition: all 0.3s ease 0s;
+}
+
+.menu li a:hover{
+  color: #A6AE00;
+  border: 2px solid #A6AE00;
+  padding: 3px;
+  border-radius: 4px;
+  width: 80px;
+}
+
+a.home{
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  left: 75px;
+  top: 25px;
+}
+
+a.movies{
+  position: absolute;
+  left: 220px;
+  top: 25px;
+}
+
+a.tvshows{
+  position: absolute;
+  
+  left: 335px;
+  top: 25px;
+}
+
+a.webseries{
+  position: absolute;
+  left: 490px;
+  top: 25px;
+}
+
+.showup-content {
+  position: absolute;
+  top: 290px;
+  right: 463px;
+}
+.watch {
+  position: relative;
+  left: 160px;
+  text-align: center;
+  margin-top: -90px;
+  margin-left: -100px;
+  font-size: 50px;
+}
+
+.p{
+  font-family: sans-serif;
+}
+
+.p {
+  font-weight: 13px;
+  text-align: center;
+  margin-top: -185px;
+  position: absolute;
+  top: 169px;
+  left: 200px;
+  font-size: 17px;
+  color: white;
+}
+
+.email {
+  position: absolute;
+  left: 150px;
+  top: 40px;
+}
+input.email-box {
+  width: 330px;
+  height: 50px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  margin: 0;
+  border: 0;
+}
+button.proceed {
+  color: white;
+  font-size: 20px;
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  left: 330px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: #a6ae00;
+  margin: 0;
+  border: 0;
+}
+
+.showup-content,
+h3 {
+  font-size: 30px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #212020;
+  color: #fff;
+  height: 177px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.column1{
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  padding-bottom: 30px 10%;
+}
+
+.field{
+  padding: 15px;
+}
+
+.column-2{
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  padding-bottom: 30px 10%;
+}
+
+.column-3{
+  position: absolute;
+  top: 22px;
+  left: 800px;
+  padding-bottom: 30px 10%;
+}
+
+.field-1{
+  padding: 3px;
+}
+
+.rights{
+  position: absolute;
+  bottom: 7px;
+  left: 300px;
+}
+
+#emailerr{
+  margin-left: 35px;
+  color: red;
+  display: inline;
+  font-size: 16px;
+  left: 172px;
+  font-family: auto;
+}
